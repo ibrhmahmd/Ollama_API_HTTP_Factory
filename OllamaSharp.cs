@@ -19,9 +19,9 @@ namespace Ollama_API_Testing
         public OllamaChatProgram(string serverUrl)
         {
             this.ollama = new OllamaApiClient(new Uri(serverUrl));
+            string command = "ollama serve "; // Replace with your command
+            TerminalCommand.ExecuteCommand(command);
         }
-
-
 
 
         public async Task Initialize()
@@ -35,17 +35,12 @@ namespace Ollama_API_Testing
         }
 
 
-
-
-
         public async Task SelectModel()
         {
-
             var models = await ollama.ListLocalModelsAsync();
             var chosenModelNumber = 0;
             var chosenModel = "";
 
-            Console.WriteLine("Type the number of your selected model");
 
             // Check if models is not null, and if it's actually an IEnumerable
             if (models == null)
@@ -54,6 +49,7 @@ namespace Ollama_API_Testing
                 return;
             }
 
+            Console.WriteLine("Type the number of your selected model");
 
             await ListModels();
             int.TryParse(Console.ReadLine(), out chosenModelNumber);
