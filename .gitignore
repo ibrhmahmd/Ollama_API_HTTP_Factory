@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vs/Ollama_API_Testing/v17/.suo
+/Ollama_HttpClient/obj/Debug/net9.0/Ollama_HttpClient.AssemblyInfo.cs
+/Ollama_HttpClient/obj/Debug/net9.0/Ollama_HttpClient.AssemblyInfoInputs.cache
+/Ollama_HttpClient/obj/Debug/net9.0/Ollama_HttpClient.assets.cache
+/Ollama_HttpClient/obj/Debug/net9.0/Ollama_HttpClient.GeneratedMSBuildEditorConfig.editorconfig
+/Ollama_HttpClient/obj/Ollama_HttpClient.csproj.nuget.dgspec.json
+/Ollama_HttpClient/obj/Ollama_HttpClient.csproj.nuget.g.props
+/Ollama_HttpClient/obj/project.assets.json
+/Ollama_HttpClient/obj/project.nuget.cache
