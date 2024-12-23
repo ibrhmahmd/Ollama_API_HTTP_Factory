@@ -44,8 +44,6 @@ namespace Ollama_HttpClient
          
 
 
-
-
         public async Task ChatWithModel(HttpClient ollamaClient, ChatRequest chatRequest)
         {
             Console.Write("User > ");
