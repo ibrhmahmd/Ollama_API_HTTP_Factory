@@ -18,10 +18,10 @@ namespace Ollama_API_Testing
         public OllamaClient(string modelName)
         {
             _modelName = modelName;
-
+             
             var serviceProvider = new ServiceCollection()
                                   .AddOllamaClient()
-                                  .BuildServiceProvider();
+                                  .BuildServiceProvider(); 
 
             _client = serviceProvider.GetRequiredService<IOllamaHttpClient>();
         }

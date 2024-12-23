@@ -12,14 +12,10 @@ namespace Ollama_API_Testing
         static async Task Main(string[] args)
         {
 
-            //ollamaSharp method
-            var chatProgram = new OllamaChatProgram("http://localhost:11434");
-            await chatProgram.Initialize();
-            await chatProgram.RunChat();
-
-
-
-
+            ////ollamaSharp method
+            //var chatProgram = new OllamaChatProgram("http://localhost:11434");
+            //await chatProgram.Initialize();
+            //await chatProgram.RunChat();
 
 
             //// ollamaClient method 
@@ -30,6 +26,7 @@ namespace Ollama_API_Testing
 
             //// Start the chat loop
             //await ollamaClient.StartChatLoop();
+
         }
     }
 }
