@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj": {}
+    "E:\\Users\\ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj": {
+    "E:\\Users\\ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj",
+        "projectUniqueName": "E:\\Users\\ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj",
         "projectName": "Ollama_HttpClient",
-        "projectPath": "E:\\Users\\Ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj",
+        "projectPath": "E:\\Users\\ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\Ollama_HttpClient.csproj",
         "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
         "outputPath": "E:\\Users\\Ibrahim\\Desktop\\New-OLlama_API_ConsoleAPP\\Ollama_HttpClient\\obj\\",
         "projectStyle": "PackageReference",

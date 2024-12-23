@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ollama_HttpClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f96ebdc0aee1303282e0ce40cf5c885d91a8eb20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+754748057b0cdda61d3e972666d0b580160eb687")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ollama_HttpClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ollama_HttpClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

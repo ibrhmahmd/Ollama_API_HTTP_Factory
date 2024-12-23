@@ -58,7 +58,6 @@ namespace Ollama_HttpClient
 
             var chatRequestJson = JsonSerializer.Serialize(chatRequest);
 
-
             var content = new StringContent(chatRequestJson, Encoding.UTF8, "application/json");
             
             var responseMessage = await ollamaClient.PostAsync("/api/chat", content);
