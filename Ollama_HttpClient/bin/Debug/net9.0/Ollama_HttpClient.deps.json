@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Ollama_HttpClient/1.0.0": {
+        "runtime": {
+          "Ollama_HttpClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ollama_HttpClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
