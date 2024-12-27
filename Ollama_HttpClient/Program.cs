@@ -7,6 +7,7 @@ namespace Ollama_HttpClient
     {
         static async Task Main(string[] args)
         {
+
             var ollamaEndpoint = "http://127.0.0.1:11434";
             var ollamaClient = new HttpClient
             {

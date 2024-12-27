@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ollama_API_Testing", "Ollam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama_HttpClient", "Ollama_HttpClient\Ollama_HttpClient.csproj", "{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseLayer", "DataBaseLayer\DataBaseLayer.csproj", "{737B208D-CDBB-492C-B10D-C4487E375644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

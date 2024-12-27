@@ -48,4 +48,3 @@ namespace DataBaseLayer.Entities
         public List<Prompt> Prompts { get; set; }
     }
 }
-}
