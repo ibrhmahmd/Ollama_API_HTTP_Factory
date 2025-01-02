@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DataBaseLayer.Repositories
+namespace DataBaseLayer.Repositories.PromptRepo
 {
     public class PromptRepository : IPromptRepository
     {
@@ -35,12 +35,6 @@ namespace DataBaseLayer.Repositories
             await _context.SaveChangesAsync();
         }
 
-        // Update an existing prompt
-        public async Task UpdateAsync(Prompt prompt)
-        {
-            _context.Prompts.Update(prompt);
-            await _context.SaveChangesAsync();
-        }
 
         // Delete a prompt by Id
         public async Task DeleteAsync(string id)

@@ -22,5 +22,4 @@ namespace DataBaseLayer
                         options.UseSqlServer(hostContext.Configuration.GetConnectionString("DefaultConnection")));
                 });
     }
-
 }

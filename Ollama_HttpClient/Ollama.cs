@@ -13,14 +13,6 @@ namespace Ollama_HttpClient
     {
         public HttpClient OllamaClient { get; set; }
 
-
-        //public Ollama(Uri port, HttpClient ollamaClient)
-        //{
-        //    OllamaClient.BaseAddress = port;
-        //}
-
-
-
         public async Task getmodels(HttpClient OllamaClient)
         {
             var ResponseMassege = await OllamaClient.GetAsync("api/tags");
@@ -29,13 +21,13 @@ namespace Ollama_HttpClient
 
             if (ResponseMassege.StatusCode == HttpStatusCode.OK && content != null)
             {
-                GetModelsRespons modelResponse = JsonSerializer.Deserialize<GetModelsRespons>(content);
+                List<Model> modelResponse = JsonSerializer.Deserialize<List<Model>>(content);
 
                 if (modelResponse != null)
                 {
-                    for (int i = 0; i < modelResponse.Models.Count; i++)
+                    for (int i = 0; i < modelResponse.Count; i++)
                     {
-                        Model? model = modelResponse.Models[i];
+                        Model? model = modelResponse[i];
                         Console.WriteLine($"({i}). {model.Name}     {model.Size}     {model.Details.Parameter_size}");
                     }
                 }
@@ -52,18 +44,13 @@ namespace Ollama_HttpClient
 
             var userInput = Console.ReadLine();
             var userMessage = new Message { Role = "user", Content = userInput };
-
             chatRequest.Message.Add(userMessage);
 
-
             var chatRequestJson = JsonSerializer.Serialize(chatRequest);
-
             var content = new StringContent(chatRequestJson, Encoding.UTF8, "application/json");
-            
             var responseMessage = await ollamaClient.PostAsync("/api/chat", content);
-            
             var llmResponse = await responseMessage.Content.ReadAsStringAsync();
-          
+
 
 
 
