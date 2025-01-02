@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ollama_API_Testing", "Ollama_API_Testing.csproj", "{B729DA9B-D23D-4E47-BFBA-033085537C20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama_Console_HttpClient", "Ollama_HttpClient\Ollama_Console_HttpClient.csproj", "{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama_HttpClient", "Ollama_HttpClient\Ollama_HttpClient.csproj", "{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseLayer", "DataBaseLayer\DataBaseLayer.csproj", "{737B208D-CDBB-492C-B10D-C4487E375644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama_HTTP_Client_Facory", "Ollama_HTTP_Client_Facory\Ollama_HTTP_Client_Facory.csproj", "{4F681FA1-F072-4E76-A9F3-CE04B1CB5C80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B729DA9B-D23D-4E47-BFBA-033085537C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B729DA9B-D23D-4E47-BFBA-033085537C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B729DA9B-D23D-4E47-BFBA-033085537C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B729DA9B-D23D-4E47-BFBA-033085537C20}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0AB6B9C-5DB8-44B7-8431-F70291F4C36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737B208D-CDBB-492C-B10D-C4487E375644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F681FA1-F072-4E76-A9F3-CE04B1CB5C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F681FA1-F072-4E76-A9F3-CE04B1CB5C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F681FA1-F072-4E76-A9F3-CE04B1CB5C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F681FA1-F072-4E76-A9F3-CE04B1CB5C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
