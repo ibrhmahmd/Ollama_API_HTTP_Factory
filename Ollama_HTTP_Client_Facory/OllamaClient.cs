@@ -5,9 +5,11 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
+using Ollama_HTTP_Client_Facory.GetModelsDTOs;
 using Ollama_HttpClient.chatDTos;
+using Microsoft.Extensions.Http;
 
-namespace Ollama_HttpClient
+namespace Ollama_HTTP_Client_Facory
 {
     // Client class responsible for interacting with the Ollama API
     public class OllamaClient
