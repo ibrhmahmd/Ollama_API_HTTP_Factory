@@ -36,7 +36,7 @@ namespace Ollama_API.Controllers
                 return StatusCode(500, "Failed to process the chat request.");
             }
 
-            return Ok(response);                   // Return response as HTTP 200
+            return Ok(response);                   
         }
 
 
@@ -51,10 +51,10 @@ namespace Ollama_API.Controllers
 
             if (response == null )
             {
-                return NotFound("No tags available."); // Return HTTP 404 if no data
+                return NotFound("No tags available."); 
             }
 
-            return Ok(response);                    // Return response as HTTP 200
+            return Ok(response);                    
         }
     }
 }

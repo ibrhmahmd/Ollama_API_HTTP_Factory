@@ -14,7 +14,7 @@ namespace DataBaseLayer.Entities
         public string Id { get; set; }
 
         [Required]
-        [StringLength(1000)]
+        [StringLength(1000)] 
         public string Content { get; set; }
 
         [ForeignKey("SessionId")]
