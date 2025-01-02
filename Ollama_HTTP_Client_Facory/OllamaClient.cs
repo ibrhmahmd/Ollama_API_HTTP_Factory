@@ -6,7 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Ollama_HTTP_Client_Facory.GetModelsDTOs;
-using Ollama_HttpClient.chatDTos;
+using Ollama_Console_HttpClient.chatDTos;
 using Microsoft.Extensions.Http;
 
 namespace Ollama_HTTP_Client_Facory
@@ -47,7 +47,7 @@ namespace Ollama_HTTP_Client_Facory
         }
 
         // Method to call /api/tags endpoint
-        public async Task<List<Model>> GetTagsAsync()
+        public async Task<GetModelsResponse> GetTagsAsync()
         {
             // Make a GET request to the /api/tags endpoint
             var JsonResponse = await _httpClient.GetAsync("/api/tags");
@@ -57,7 +57,7 @@ namespace Ollama_HTTP_Client_Facory
             var responseString = await JsonResponse.Content.ReadAsStringAsync();
 
             // Deserialize the response string into a list of Model objects
-            List<Model> modelsList = JsonSerializer.Deserialize<List<Model>>(responseString);
+            GetModelsResponse modelsList = JsonSerializer.Deserialize<GetModelsResponse>(responseString);
 
             return modelsList; // Return the deserialized list of models
         }

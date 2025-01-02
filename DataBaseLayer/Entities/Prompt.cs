@@ -23,6 +23,5 @@ namespace DataBaseLayer.Entities
 
         [MaxLength(10)]
         public string? Tempreture { get; set; }
-
     }
 }
