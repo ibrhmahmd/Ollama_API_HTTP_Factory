@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama_HTTP_Client_Factory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My_Ollama_API", "My_Ollama_API\My_Ollama_API.csproj", "{45BA0999-DF72-4AD6-89A1-9E3B442F2F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot_Gayeway", "Ocelot_Gayeway\Ocelot_Gayeway.csproj", "{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot_Gateway", "Ocelot_Gayeway\Ocelot_Gateway.csproj", "{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

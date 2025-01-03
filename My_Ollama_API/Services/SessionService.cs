@@ -37,17 +37,15 @@ namespace My_Ollama_API.Services
             {
                 Id = Guid.NewGuid().ToString(),
                 SessionId = sessionId,
-                Content = chatRequest.Message.
-
-
+                Content = chatRequest.Message[-1].Content
             };
             await _repository.AddMessageAsync(sessionId, message);
         }
 
-        // Retrieve session details
+        /*// Retrieve session details
         public async Task<ChatSession> GetSessionAsync(int sessionId)
         {
             return await _repository.GetSessionAsync(sessionId);
-        }
+        }*/
     }
 }
