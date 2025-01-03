@@ -19,7 +19,7 @@ namespace Ollama_Console_HttpClient.chatDTos
 
         [JsonPropertyName("stream")]
         public bool Stream { get; set; }
-    }
+    } 
 
 
 

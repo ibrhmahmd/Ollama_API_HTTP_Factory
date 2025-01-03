@@ -1,12 +1,13 @@
-﻿using Ollama_HttpClient.chatDTos;
+﻿using Ollama_Console_HttpClient.chatDTos;
 using System.Net;
 using System.Text.Json;
-namespace Ollama_HttpClient
+namespace Ollama_Console_HttpClient
 {
     internal class Program
     {
         static async Task Main(string[] args)
         {
+
             var ollamaEndpoint = "http://127.0.0.1:11434";
             var ollamaClient = new HttpClient
             {
