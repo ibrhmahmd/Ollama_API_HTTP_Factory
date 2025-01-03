@@ -14,7 +14,7 @@ namespace DataBaseLayer.Entities
         [Key]
         public string Id { get; set; } // Primary Key
 
-        [Required]
+        [Required] 
         public DateTime CreatedAt { get; set; }
 
         public DateTime? EndedAt { get; set; }

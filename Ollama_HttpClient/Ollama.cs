@@ -1,4 +1,4 @@
-﻿using Ollama_HttpClient.chatDTos;
+﻿using Ollama_Console_HttpClient.chatDTos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Ollama_HttpClient
+namespace Ollama_Console_HttpClient
 {
     public class Ollama
     {
@@ -78,7 +78,7 @@ namespace Ollama_HttpClient
             if (responseMessage.StatusCode == HttpStatusCode.OK && content != null)
             {
                 // Deserialize the JSON string to the ModelsResponse object
-                GetModelsRespons modelsResponse = JsonSerializer.Deserialize<GetModelsRespons>(content);
+                GetModelsResponse modelsResponse = JsonSerializer.Deserialize<GetModelsResponse>(content);
 
                 if (modelsResponse != null)
                 {

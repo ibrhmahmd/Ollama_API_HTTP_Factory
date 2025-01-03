@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Ollama_HttpClient.chatDTos
+namespace Ollama_Console_HttpClient.chatDTos
 {
     public class ChatRequest
     {
@@ -19,7 +19,7 @@ namespace Ollama_HttpClient.chatDTos
 
         [JsonPropertyName("stream")]
         public bool Stream { get; set; }
-    }
+    } 
 
 
 

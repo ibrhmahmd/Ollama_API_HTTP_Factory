@@ -18,7 +18,7 @@ namespace DataBaseLayer.Repositories
         }
 
         // Get a response by Id
-        public async Task<Session> GetByIdAsync(string id)
+        public async Task<Session> GetSessionByIdAsync(string id)
         {
             return await _context.Sessions.FindAsync(id);
         }
@@ -30,7 +30,7 @@ namespace DataBaseLayer.Repositories
         }
 
         // Add a new prompt
-        public async Task AddAsync(Session session)
+        public async Task CreateSessionAsync(Session session)
         {
             await _context.Sessions.AddAsync(session);
             await _context.SaveChangesAsync();

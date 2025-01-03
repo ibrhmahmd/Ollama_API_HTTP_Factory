@@ -1,7 +1,7 @@
-﻿using Ollama_HttpClient.chatDTos;
+﻿using Ollama_Console_HttpClient.chatDTos;
 using System.Net;
 using System.Text.Json;
-namespace Ollama_HttpClient
+namespace Ollama_Console_HttpClient
 {
     internal class Program
     {

@@ -14,7 +14,7 @@ namespace DataBaseLayer.Entities
         public string Id { get; set; }
 
         [Required]
-        [StringLength(1000)]
+        [StringLength(1000)] 
         public string Content { get; set; }
 
         [ForeignKey("SessionId")]
@@ -23,6 +23,5 @@ namespace DataBaseLayer.Entities
 
         [MaxLength(10)]
         public string? Tempreture { get; set; }
-
     }
 }
