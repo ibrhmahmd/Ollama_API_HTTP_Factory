@@ -3,10 +3,34 @@
     "BaseUrl": "https://localhost:5001"
   },
   "Routes": [
+    //{
+    //  "UpstreamPathTemplate": "/scalar/v1",
+    //  "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+    //  "DownstreamPathTemplate": "/scalar/v1",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 5001
+    //    }
+    //  ]
+    //},
     {
       "UpstreamPathTemplate": "/gateway/ollama/chat",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/api/ollama/chat",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7011
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/ollama/tags",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/ollama/tags",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
