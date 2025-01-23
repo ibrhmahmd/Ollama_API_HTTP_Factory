@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama_HTTP_Client_Factory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My_Ollama_API", "My_Ollama_API\My_Ollama_API.csproj", "{45BA0999-DF72-4AD6-89A1-9E3B442F2F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot_Gateway", "Ocelot_Gayeway\Ocelot_Gateway.csproj", "{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{C3B794FF-AA57-47ED-8E91-3D29170DEDD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{45BA0999-DF72-4AD6-89A1-9E3B442F2F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45BA0999-DF72-4AD6-89A1-9E3B442F2F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45BA0999-DF72-4AD6-89A1-9E3B442F2F62}.Release|Any CPU.Build.0 = Release|Any CPU
-		{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{175D4143-CAD0-4BFD-AB04-3D523D39BB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B794FF-AA57-47ED-8E91-3D29170DEDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B794FF-AA57-47ED-8E91-3D29170DEDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B794FF-AA57-47ED-8E91-3D29170DEDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B794FF-AA57-47ED-8E91-3D29170DEDD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -31,7 +31,7 @@ namespace My_Ollama_API.Services
         }
 
         // Add a message to a session
-        public async Task AddPromptAsync(string sessionId, ChatRequest chatRequest)
+        /*public async Task AddPromptAsync(string sessionId, ChatRequest chatRequest)
         {
             var prompt = new Prompt
             {
@@ -40,7 +40,7 @@ namespace My_Ollama_API.Services
                 Content = chatRequest.Message[-1].Content
             };
             await _repository.AddMessageAsync(sessionId, message);
-        }
+        }*/
 
         /*// Retrieve session details
         public async Task<ChatSession> GetSessionAsync(int sessionId)
